@@ -53,20 +53,6 @@ This lab demonstrates hands-on skills in Microsoft Entra ID, including Privilege
 ![Access Review Overview](screenshots/08-access-review.png)
 ![New Access Review](screenshots/08-access-review-new.png)
 
----
-
-## Sign-in & Audit Logs
-- Monitored sign-in and audit logs for security visibility
-- Tracked role activations and Conditional Access enforcement
-
-![Sign-in Logs](screenshots/09-signin-logs.png)
-
----
-
 ## Technologies
 - Microsoft Entra ID, Azure AD, PIM, Conditional Access, Identity Governance, Access Packages, Access Reviews, Azure AD Logs
 
----
-
-## GitHub
-- Full lab documentation and screenshots available at: [entra-id-identity-access-lab](https://github.com/YOURUSERNAME/entra-id-identity-access-lab)
