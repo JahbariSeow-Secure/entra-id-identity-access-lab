@@ -19,7 +19,7 @@ This lab demonstrates hands-on skills in Microsoft Entra ID, including Privilege
 - Activated roles just-in-time to align with least-privilege principles
 - Monitored and audited role activations
 
-![PIM Overview](screenshots/pim-overview.png)
+![PIM Overview](pim-overview.png)
 ![Eligible Role Assignment](screenshots/03-pim-eligible-role.png)
 ![Role Settings](screenshots/04-pim-role-settings.png)
 ![Role Activated](screenshots/05-pim-role-activated.png)
