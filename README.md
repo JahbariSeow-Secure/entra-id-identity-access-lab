@@ -1,12 +1,13 @@
 # Microsoft Entra ID – Identity & Access Management Lab
 
-This lab demonstrates hands-on skills in Microsoft Entra ID, including Privileged Identity Management (PIM), Conditional Access, Entitlement Management, and Access Reviews.
+This lab demonstrates hands-on skills in Microsoft Entra ID, including Privileged Identity Management (PIM), Conditional Access, Entitlement Management, and Access Reviews. The lab simulates enterprise identity and access management to show Zero Trust principles, least privilege access, and identity governance.
 
 ---
 
 ## Users & Groups
-- Created users and groups simulating an enterprise environment
-- Assigned users to HR, IT, and Finance groups
+- Created users simulating employees, admins, and external vendors
+- Configured groups such as HR-Users, IT-Admins, Finance-Users, and All-Employees
+- Assigned users to groups according to role
 
 ![Users and Groups](screenshots/01-users.png)
 ![Groups Membership](screenshots/02-groups-membership.png)
@@ -16,18 +17,23 @@ This lab demonstrates hands-on skills in Microsoft Entra ID, including Privilege
 ## Privileged Identity Management (PIM)
 - Configured eligible role assignments with MFA and time-bound activation
 - Activated roles just-in-time to align with least-privilege principles
+- Monitored and audited role activations
 
-![PIM Eligible Role](screenshots/03-pim-eligible-role.png)
-![PIM Role Settings](screenshots/04-pim-role-settings.png)
-![PIM Role Activated](screenshots/05-pim-role-activated.png)
+![PIM Overview](screenshots/03-pim-overview.png)
+![Eligible Role Assignment](screenshots/03-pim-eligible-role.png)
+![Role Settings](screenshots/04-pim-role-settings.png)
+![Role Activated](screenshots/05-pim-role-activated.png)
 
 ---
 
 ## Conditional Access
-- Implemented MFA for all employees
-- Applied Zero Trust principles to protect cloud application access
+- Implemented Conditional Access policies enforcing MFA for all users
+- Scoped policies to reduce risk while preventing administrative lockout
+- Applied Zero Trust principles to secure cloud applications
 
-![Conditional Access](screenshots/06-conditional-access-mfa.png)
+![Add New Policy](screenshots/06-conditional-access-new.png)
+![Conditional Access Blade](screenshots/06-conditional-access-blade.png)
+![Policy Settings](screenshots/06-conditional-access-settings.png)
 
 ---
 
@@ -35,7 +41,8 @@ This lab demonstrates hands-on skills in Microsoft Entra ID, including Privilege
 - Built access packages to automate HR group onboarding and approvals
 - Configured time-bound access and approval workflows
 
-![Access Package](screenshots/07-access-package.png)
+![Entitlement Management Blade](screenshots/07-access-package-blade.png)
+![New Access Package](screenshots/07-access-package-new.png)
 
 ---
 
@@ -43,7 +50,8 @@ This lab demonstrates hands-on skills in Microsoft Entra ID, including Privilege
 - Created resource access reviews to validate user access
 - Ensured least privilege and compliance through periodic reviews
 
-![Access Review](screenshots/08-access-review.png)
+![Access Review Overview](screenshots/08-access-review.png)
+![New Access Review](screenshots/08-access-review-new.png)
 
 ---
 
@@ -57,3 +65,8 @@ This lab demonstrates hands-on skills in Microsoft Entra ID, including Privilege
 
 ## Technologies
 - Microsoft Entra ID, Azure AD, PIM, Conditional Access, Identity Governance, Access Packages, Access Reviews, Azure AD Logs
+
+---
+
+## GitHub
+- Full lab documentation and screenshots available at: [entra-id-identity-access-lab](https://github.com/YOURUSERNAME/entra-id-identity-access-lab)
