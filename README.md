@@ -36,7 +36,7 @@ The lab simulates enterprise identity and access management to showcase **Zero T
 *Overview of user accounts created for the lab environment.*
 
 ![Groups Membership](screenshots/02-groups-membership.png)  
-*Shows group memberships and assignments for access control.*
+*Shows group memberships and assignments for access control.* 
 
 ---
 
