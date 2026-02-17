@@ -45,12 +45,12 @@ The lab simulates enterprise identity and access management to showcase **Zero T
 - Implemented **Conditional Access policies** enforcing MFA for all users  
 - Scoped policies to balance security and usability, preventing administrative lockouts  
 - Applied **Zero Trust principles** to secure cloud applications and sensitive resources  
-
+![Conditional Access Blade](screenshots/06-conditional-access-blade.png)  
+*Policy overview and assignment scope for targeted users or groups.*
 ![Add New Policy](screenshots/06-conditional-access-new.png)  
 *Creating a new Conditional Access policy in Microsoft Entra ID.*
 
-![Conditional Access Blade](screenshots/06-conditional-access-blade.png)  
-*Policy overview and assignment scope for targeted users or groups.*
+
 
 ![Policy Settings](screenshots/06-conditional-access-settings.png)  
 *Detailed policy settings includin*
